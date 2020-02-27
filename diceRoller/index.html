@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+	<html lang="pt-BR">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<title>Roll Dice RPG</title>
+	</head>
+
+	<body>
+		<!-- d4 infos -->
+		<div id="d4" class="dice4">0</div>
+		<img src="img/d4.png" id="imgD4">
+		<button onclick="rollDice4()" id="d4Button">Roll D4</button>
+		<div id="d4Text">Seu resultado foi: <div id="d4Result"></div></div>	
+
+		<!-- d6 infos -->
+		<div id="d6" class="dice6">0</div>
+		<img src="img/d6.png" id="imgD6">
+		<button onclick="rollDice6()" id="d6Button">Roll D6</button>
+		<div id="d6Text">Seu resultado foi: <div id="d6Result"></div></div>	
+
+		<!-- d8 infos -->
+		<div id="d8" class="dice8">0</div>
+		<img src="img/d8.png" id="imgD8">
+		<button onclick="rollDice8()" id="d8Button">Roll D8</button>
+		<div id="d8Text">Seu resultado foi: <div id="d8Result"></div></div>	
+
+		<!-- d10 infos -->
+		<div id="d10" class="dice10">0</div>
+		<img src="img/d10.png" id="imgD10">
+		<button onclick="rollDice10()" id="d10Button">Roll D10</button>
+		<div id="d10Text">Seu resultado foi: <div id="d10Result"></div></div>	
+
+		<!-- d12 infos -->
+		<div id="d12" class="dice12">0</div>
+		<img src="img/d12.png" id="imgD12">
+		<button onclick="rollDice12()" id="d12Button">Roll D12</button>
+		<div id="d12Text">Seu resultado foi: <div id="d12Result"></div></div>	
+
+		<!-- d20 infos -->
+		<div id="d20" class="dice20">0</div>
+		<img src="img/d20.png" id="imgD20">
+		<button onclick="rollDice20()" id="d20Button">Roll D20</button>
+		<div id="d20Text">Seu resultado foi: <div id="d20Result"></div></div>	
+
+
+		
+		<button onclick="clearAll('d4Result')" id="clearAll">Clear All</button>
+		
+
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>
